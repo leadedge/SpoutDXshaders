@@ -15,7 +15,7 @@ share handle to that is returned instead of from the original texture.
 
 The demonstration sender allows the texture format to be selected for testing.
    
-## Compute shader performance for DirectX 9
+### Compute shader performance for DirectX 9
 
 The execution time of the copy compute shader has been tested using a NVIDA Geforce 3060
 at 0.03 - 1.0 milliseconds. Tests with textures up to 7680x1440 and with 100% GPU usage,
