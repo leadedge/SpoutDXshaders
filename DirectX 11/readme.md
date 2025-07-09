@@ -1,11 +1,5 @@
-# DirectX 11
-
-## Project
-
 WinSpoutDX11 uses the "SpoutDX" class which simplifies application code
 by handling lower level functions within the class. 
-
-## Purpose
 
 The application demonstrates D3D11 compute shaders that can be used
 by DirectX 11 receivers. A dialog provides controls for changing the image brightness,
