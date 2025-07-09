@@ -6,7 +6,8 @@ to receive from a Spout sender, apply shaders and display using Windows function
 in WM_PAINT. Although the display is not the most efficient, this makes
 the host application as simple as possible for example code.
 
-The examples are receivers and can be used together with the demonstration sender
+Pre-built executables are included in the [project release](https://github.com/leadedge/SpoutDXshaders/releases/tag/1.000) 
+and can be used for initial evaluation. The programs are receivers and can be used together with the demonstration sender
 provided with the [latest Spout Release](https://github.com/leadedge/Spout2/releases).
 
 ## DirectX 11
@@ -62,5 +63,3 @@ relevant header file. For example in SpoutDirectX9.h :
 </pre>
 
 After building, the "SpoutDXshaders\x64\Release" folder contains the executables.
-
-Pre-built executables are included in the project release and can be used for initial evaluation.
