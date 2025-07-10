@@ -164,8 +164,6 @@ void Render()
 		// IsUpdated() returns true if the sender has changed
 		if (receiver.IsUpdated()) {
 
-			printf("Updated\n");
-
 			// Update globals used for convenience throughout
 			strcpy_s((char *)g_SenderName, 256, receiver.GetSenderName());
 			g_SenderWidth = receiver.GetSenderWidth();
